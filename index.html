@@ -12,7 +12,6 @@
     --head: #0a2a43;
     --accent: #d9560b;
     --rule: #dde3ea;
-    --mark: #fff1c2;
     --card: #f5f8fb;
   }
   @media (prefers-color-scheme: dark) {
@@ -23,7 +22,6 @@
       --head: #ffffff;
       --accent: #ff8a3d;
       --rule: #24384d;
-      --mark: #5a4a12;
       --card: #142536;
     }
   }
@@ -42,7 +40,6 @@
   p, li { margin: .6em 0; }
   ul { padding-left: 1.3em; }
   .meta { color: var(--muted); margin: 0 0 1.6em; }
-  .fill { background: var(--mark); padding: 0 .25em; border-radius: 3px; }
   .box { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 4px 18px; margin: 1em 0; }
   .table-wrap { overflow-x: auto; }
   table { border-collapse: collapse; width: 100%; font-size: .95rem; margin: 1em 0; }
@@ -54,9 +51,9 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="meta">LLB’s Empire &middot; Last updated: 9 November 2026</p>
+  <p class="meta">LLB’s Empire &middot; Last updated: 10 November 2026</p>
 
-  <p>This Privacy Policy explains what information the LLB’s Empire mobile app (“the app”, “we”, “us”) collects, how we use it, and the choices you have. The app is operated by <span class="fill">[YOUR BUSINESS OR FULL NAME]</span>, <span class="fill">[YOUR ADDRESS, CHENNAI, TAMIL NADU, INDIA]</span>.</p>
+  <p>This Privacy Policy explains what information the LLB’s Empire mobile app (“the app”, “we”, “us”) collects, how we use it, and the choices you have. The app is operated by LLB’s Empire, Madhuravoyal, Chennai, Tamil Nadu, India.</p>
 
   <p>By creating an account and using the app, you agree to the collection and use of your information as described here. If you do not agree, please do not create an account.</p>
 
@@ -74,15 +71,13 @@
   </ul>
   <p><strong>Information you give us when you contact us.</strong> If you send an enquiry, or call or message us through the app, we receive the details you provide, such as the property you are interested in and your message.</p>
 
-  <p><strong>Approximate location (optional).</strong> <span class="fill">[Keep this paragraph only if your app asks for GPS location; otherwise delete it.]</span> If you choose to allow it, the app collects your approximate location, only while you are using the app, to understand which area our users come from. We never collect location in the background. The app works fully if you decline, and you can remove your saved location from your profile at any time.</p>
-
   <p><strong>Information collected automatically:</strong></p>
   <ul>
     <li><strong>Device identifiers and notification tokens.</strong> If you allow notifications, we use Firebase Cloud Messaging, which creates an identifier for your device so we can send you notifications.</li>
-    <li><strong>Usage and diagnostic data.</strong> We may collect basic information about how the app is used and about crashes, such as app version, device model and Android version, to keep the app working well.</li>
+    <li><strong>Diagnostic data.</strong> We may collect basic information about crashes and errors, such as app version, device model and Android version, to keep the app working well.</li>
     <li><strong>Sign-in session.</strong> To keep you signed in, the app stores a secure sign-in token on your device until you sign out.</li>
   </ul>
-  <p>We do not access your contacts, photos, microphone, camera or SMS messages. <span class="fill">[Remove or change this sentence if your app uses any of these.]</span></p>
+  <p>We do not collect your precise location. We do not access your contacts, photos, microphone, camera or SMS messages.</p>
 
   <h2>Why we collect it and how we use it</h2>
   <ul>
@@ -100,7 +95,7 @@
   </div>
 
   <h2>Where your information is stored</h2>
-  <p>Your account details are stored securely with <strong>Supabase</strong>, a database and sign-in service provider. Data is stored on servers located in <span class="fill">[YOUR SUPABASE REGION, e.g. Mumbai, India (ap-south-1)]</span>. Access to the stored data is restricted. Each user can read and change only their own account details inside the app, and only authorised people on our team can view the user list.</p>
+  <p>Your account details are stored securely with <strong>Supabase</strong>, a database and sign-in service provider, on secure cloud servers. Access to the stored data is restricted. Each user can read and change only their own account details inside the app, and only authorised people on our team can view the user list.</p>
 
   <h2>Services we use</h2>
   <p>The app uses the following third-party services to work. They may process data under their own privacy policies.</p>
@@ -108,9 +103,8 @@
     <table>
       <thead><tr><th>Service</th><th>Purpose</th><th>Policy</th></tr></thead>
       <tbody>
-        <tr><td>Supabase</td><td>Account sign-in and storing your account details</td><td><a href="https://supabase.com/privacy">supabase.com/privacy</a></td></tr>
-        <tr><td>Google Firebase (Cloud Messaging)</td><td>Delivering notifications and app performance</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
-        <tr><td>Email delivery provider</td><td>Sending sign-in and password reset emails <span class="fill">[name your SMTP provider, or delete this row]</span></td><td><span class="fill">[provider policy link]</span></td></tr>
+        <tr><td>Supabase</td><td>Account sign-in, sending sign-in and password reset emails, and storing your account details</td><td><a href="https://supabase.com/privacy">supabase.com/privacy</a></td></tr>
+        <tr><td>Google Firebase (Cloud Messaging)</td><td>Delivering notifications</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
       </tbody>
     </table>
   </div>
@@ -128,15 +122,14 @@
   <ul>
     <li><strong>Access and correction:</strong> you can view and edit your name, phone number and district in the app’s profile section. You can also email us to ask for a copy of your data or for corrections.</li>
     <li><strong>Delete your account and data:</strong> see the section below.</li>
-    <li><strong>Location:</strong> you can decline location, or remove saved location from your profile, at any time. You can also switch off location permission in your phone’s settings.</li>
     <li><strong>Notifications:</strong> you can turn them off at any time in your phone’s settings.</li>
     <li><strong>Withdraw consent:</strong> you can withdraw your consent at any time by deleting your account.</li>
     <li><strong>Sign out:</strong> you stay signed in on your device until you tap Sign Out in the app.</li>
   </ul>
 
-  <h2>How to delete your account and data</h2>
-  <p><strong>In the app:</strong> open the app, go to your Profile, and tap <strong>Delete Account</strong>. Your account and the details linked to it (name, phone number, email, district and any saved location) will be deleted.</p>
-  <p><strong>Without the app:</strong> if you can no longer open the app, email us at <span class="fill">[YOUR EMAIL ADDRESS]</span> from the email address registered on your account, with the subject “Delete my account”. We will delete your account and data within <span class="fill">30</span> days and confirm by email.</p>
+  <h2 id="delete-account">How to delete your account and data</h2>
+  <p><strong>In the app:</strong> open the app, go to your Profile, and tap <strong>Delete Account</strong>. Your account and the details linked to it (name, phone number, email and district) will be deleted.</p>
+  <p><strong>Without the app:</strong> if you can no longer open the app, email us at <a href="mailto:plantgreeninertiamanagement@gmail.com?subject=Delete%20my%20account">plantgreeninertiamanagement@gmail.com</a> from the email address registered on your account, with the subject “Delete my account”. We will delete your account and data within 30 days and confirm by email.</p>
 
   <h2>Children</h2>
   <p>The app is not meant for children under 18, and we do not knowingly collect information from them. If you believe a child has given us information, contact us and we will delete it.</p>
@@ -146,9 +139,9 @@
 
   <h2>Contact us and grievances</h2>
   <p>If you have questions, want to use your rights above, or have a complaint about how we handle your data, contact:</p>
-  <p><strong><span class="fill">[NAME OF CONTACT PERSON / GRIEVANCE OFFICER]</span></strong><br>
-  Email: <span class="fill">[YOUR EMAIL ADDRESS]</span><br>
-  Address: <span class="fill">[YOUR ADDRESS, CHENNAI, TAMIL NADU, INDIA]</span></p>
+  <p><strong>Grievance Officer, LLB’s Empire</strong><br>
+  Email: <a href="mailto:plantgreeninertiamanagement@gmail.com">plantgreeninertiamanagement@gmail.com</a><br>
+  Address: Madhuravoyal, Chennai, Tamil Nadu, India</p>
   <p>We will reply within a reasonable time.</p>
 </main>
 </body>
